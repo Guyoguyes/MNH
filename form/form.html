@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="form/form.css">
+</head>
+<body>
+    <div class="container-full">
+            <div class="forms">
+            <div class="row">
+           
+            <div class="col-md-6">
+            
+                <label>Name</label>
+                <input type="text" class="form" id="name" placeholder="Name">
+                <label>ID</label>
+                <input type="text" class="form" id="id" placeholder="Id/Passport">
+                <label>Phone</label>
+                <input type="text" class="form" id="phone" placeholder="070136254">
+                <label>Email</label>
+                <input type="text" class="form" id="email" placeholder="email">
+            </div>
+            <div class="col-md-6">
+                <div class="time">
+                <select name="Time" id="time">
+                    <label for="">Time for visit</label>
+                    <option value=""></option>
+                    <option value="">0900hrs - 0920hrs</option>
+                    <option value="">0940hrs - 1000hrs</option>
+                    <option value="">Afternoon</option>
+                    <option value="">1300hrs - 1320hrs</option>
+                    <option value="">1400hrs - 1420hrs</option>
+                </select>
+                </div>
+                <div class="business">
+                <select name="business" id="business">
+                    <option value=""></option>
+                    <option value="">Appoitment</option>
+                    <option value="">Check-up</option>
+                    <option value="">Refferal</option>
+                    <option value="">Personal visit</option>
+                </select>
+                </div>
+            </div>
+            </div>
+            <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                    <label class="form-check-label" for="materialUnchecked">NHIF</label>
+                    <input type="checkbox" class="form-check-input" id="materialUnchecked">
+                    <label class="form-check-label" for="materialUnchecked">SELF_PAID</label>
+                </div>
+                <button class="btn blue-gradient" id="submit">Book</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.forms{
+    background-color: black;
+}
+.form{
+    margin-top: 100px;
+    padding-left: 200px;
+}
